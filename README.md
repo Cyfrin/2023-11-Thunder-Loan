@@ -1,30 +1,4 @@
-# Thunder Loan
-
-<br/>
-<p align="center">
-<img src="https://res.cloudinary.com/droqoz7lg/image/upload/v1698422767/thunder-loan_fsxqvk.svg" width="700" alt="thunder-loans">
-</p>
-<br/>
-
-# Contest Details
-
-## Contest Details
-
-### Prize Pool
-
-- High - 100xp
-- Medium - 20xp
-- Low - 2xp
-
-- Starts: Noon UTC Wednesday, Nov 01 2023
-- Ends: Noon UTC Wednesday, Nov 08 2023
-
-## Stats
-
-- nSLOC: 387
-- Complexity Score: 325
-
-## A flash loan protocol based on [Aave](https://aave.com/) and [Compound](https://compound.finance/).
+# First Flight #3: Thunder Loan
 
 - [Thunder Loan](#thunder-loan)
 - [Contest Details](#contest-details)
@@ -45,6 +19,26 @@
   - [Roles](#roles)
   - [Known Issues](#known-issues)
 
+[//]: # (contest-details-open)
+
+# Contest Details
+
+### Prize Pool
+
+- High - 100xp
+- Medium - 20xp
+- Low - 2xp
+
+- Starts: Noon UTC Wednesday, Nov 01 2023
+- Ends: Noon UTC Wednesday, Nov 08 2023
+
+## Stats
+
+- nSLOC: 387
+- Complexity Score: 325
+
+## A flash loan protocol based on [Aave](https://aave.com/) and [Compound](https://compound.finance/).
+
 # About
 
 The ⚡️ThunderLoan⚡️ protocol is meant to do the following:
@@ -61,6 +55,16 @@ A flash loan is a loan that exists for exactly 1 transaction. A user can borrow 
 Users additionally have to pay a small fee to the protocol depending on how much money they borrow.
 
 We are planning to upgrade from the current `ThunderLoan` contract to the `ThunderLoanUpgraded` contract. Please include this upgrade in scope of a security review.
+
+## Roles
+
+- Owner: The owner of the protocol who has the power to upgrade the implementation.
+- Liquidity Provider: A user who deposits assets into the protocol to earn interest.
+- User: A user who takes out flash loans from the protocol.
+
+[//]: # (contest-details-close)
+
+[//]: # (getting-started-open)
 
 # Getting Started
 
@@ -105,6 +109,10 @@ and for coverage based testing:
 forge coverage --report debug
 ```
 
+[//]: # (getting-started-close)
+
+[//]: # (scope-open)
+
 ## Audit Scope Details
 
 - Commit Hash: e8ce05f5530ca965165d41547b289604f873fdf6
@@ -140,12 +148,12 @@ forge coverage --report debug
     - ZIL: 0x05f4a42e251f2d52b8ed15E9FEdAacFcEF1FAD27
     - KNC: 0xdd974D5C2e2928deA5F71b9825b8b646686BD200
 
-## Roles
+[//]: # (scope-close)
 
-- Owner: The owner of the protocol who has the power to upgrade the implementation.
-- Liquidity Provider: A user who deposits assets into the protocol to earn interest.
-- User: A user who takes out flash loans from the protocol.
+[//]: # (known-issues-open)
 
 ## Known Issues
 
 None
+
+[//]: # (known-issues-close)
