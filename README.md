@@ -19,8 +19,6 @@
   - [Roles](#roles)
   - [Known Issues](#known-issues)
 
-[//]: # (contest-details-open)
-
 # Contest Details
 
 ### Prize Pool
@@ -36,6 +34,8 @@
 
 - nSLOC: 387
 - Complexity Score: 325
+
+[//]: # (contest-details-open)
 
 ## A flash loan protocol based on [Aave](https://aave.com/) and [Compound](https://compound.finance/).
 
