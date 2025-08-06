@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: AGPL-3.0
 pragma solidity 0.8.20;
 
-import { IThunderLoan } from "./IThunderLoan.sol";
+import {IThunderLoan} from "./IThunderLoan.sol";
 
 /**
  * @dev Inspired by Aave:
@@ -14,7 +14,5 @@ interface IFlashLoanReceiver {
         uint256 fee,
         address initiator,
         bytes calldata params
-    )
-        external
-        returns (bool);
+    ) external returns (bool);
 }
